@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/grp_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_circle_1"
+            android:icon="@drawable/ic_tree"
+            android:title="@string/circle_1" />
+        <item
+            android:id="@+id/nav_circle_2"
+            android:icon="@drawable/ic_traffic_light"
+            android:title="@string/circle_2" />
+        <item
+            android:id="@+id/nav_circle_3"
+            android:icon="@drawable/ic_megaphone"
+            android:title="@string/circle_3" />
+        <item
+            android:id="@+id/nav_circle_4"
+            android:icon="@drawable/ic_cone"
+            android:title="@string/circle_4" />
+        <item
+            android:id="@+id/nav_circle_5"
+            android:icon="@drawable/ic_worker"
+            android:title="@string/circle_5" />
+        <item
+            android:id="@+id/nav_circle_6"
+            android:icon="@drawable/ic_tash"
+            android:title="@string/circle_6" />
+
+    </group>
+    <group
+        android:id="@+id/grp_2"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_informar_covid_19"
+            android:icon="@drawable/ic_shield"
+            android:title="Comunícate con nosotros" />
+
+    </group>
+
+</menu>

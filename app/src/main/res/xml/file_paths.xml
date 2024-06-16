@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path name="alerta_santa_anita" path="Android/data/gob.pe.munisantanita.alertasantaanita/files/Alerta Santa Anita" />
+</paths>

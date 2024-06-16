@@ -1,0 +1,2 @@
+rootProject.name='Alerta Santa Anita'
+include ':app'

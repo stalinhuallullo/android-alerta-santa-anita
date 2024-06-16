@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Alerta Santa Anita</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="si">Si</string>
+    <string name="no">No</string>
+
+    <string name="circle_1">Accidente</string>
+    <string name="circle_2">Problema en vía pública</string>
+    <string name="circle_3">Fiscalización</string>
+    <string name="circle_4">Alumbrado público</string>
+    <string name="circle_5">Delitos y faltas</string>
+    <string name="circle_6">Urgencia médica</string>
+    <string name="circle_7">S.O.S.</string>
+    <string name="toque_de_queda">S.O.S.</string>
+    <string name="enviar">Enviar</string>
+
+</resources>

@@ -1,0 +1,163 @@
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nested_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    android:scrollbars="none"
+    android:scrollingCache="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/colorPrimaryWeight"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="37dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/escudo_transparente"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+
+                <Button
+                    android:id="@+id/btnAlerta6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="@string/circle_6"
+                    android:background="@drawable/btn_circle_6"
+                    android:drawableTop="@drawable/ic_ambulancia"
+                    android:padding="16dp"
+                    android:textColor="@color/mdtp_white"
+                    android:textSize="9dp"
+                    android:layout_marginBottom="15dp"/>
+
+                <Button
+                    android:id="@+id/btnAlerta5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="@string/circle_5"
+                    android:background="@drawable/btn_circle_5"
+                    android:drawableTop="@drawable/ic_ladron"
+                    android:padding="16dp"
+                    android:textColor="@color/mdtp_white"
+                    android:textSize="9dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnAlerta1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="@string/circle_1"
+                    android:background="@drawable/btn_circle_1"
+                    android:drawableTop="@drawable/ic_accidente"
+                    android:padding="16dp"
+                    android:textColor="@color/mdtp_white"
+                    android:textSize="9dp"
+                    android:layout_marginBottom="15dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <pl.droidsonroids.gif.GifImageView
+                        android:id="@+id/btnToqueDeQueda1"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/ic_alerta_movimiento_2"
+                        android:layout_marginBottom="15dp"/>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnAlerta4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="@string/circle_4"
+                    android:background="@drawable/btn_circle_4"
+                    android:drawableTop="@drawable/ic_poste"
+                    android:padding="16dp"
+                    android:textColor="@color/mdtp_white"
+                    android:textSize="9dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btnAlerta2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="@string/circle_2"
+                    android:background="@drawable/btn_circle_2"
+                    android:drawableTop="@drawable/ic_cone"
+                    android:paddingTop="15dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/mdtp_white"
+                    android:textSize="9dp"
+                    android:layout_marginBottom="15dp"/>
+
+                <Button
+                    android:id="@+id/btnAlerta3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="@string/circle_3"
+                    android:background="@drawable/btn_circle_3"
+                    android:drawableTop="@drawable/ic_policia"
+                    android:padding="13dp"
+                    android:textColor="@color/mdtp_white"
+                    android:textSize="9dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

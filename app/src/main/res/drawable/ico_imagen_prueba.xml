@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/half_overlay"
+        android:drawable="@drawable/problemas_en_la_via_publica"
+        android:width="55dp"
+        android:height="55dp"
+        />
+</layer-list>
